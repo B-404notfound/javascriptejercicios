@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de instalaciones</title>
+</head>
+<body onload="mostrarInstalaciones()">
+    
+    <div class="container">
+        <h1>Lista de Instalaciones</h1>
+    </div>
+
+    <div class="container">
+        <div class="elemento">
+            <ul id="instalaciones">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="text-align: center;">
+            <button style="cursor: pointer;" onclick="agregarInstalacion()">agregar</button>
+        </div>
+        <form id="formulario1">
+            <input type="text" id="instalacion" placeholder="Instalacion"/>
+            <input type="text" id="turno" placeholder="Turno"/>
+        </form>
+    </div>
+
+
+    <script src="js/guardia.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
